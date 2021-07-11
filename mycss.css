@@ -1,0 +1,77 @@
+.board{
+    
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    border: 1px black solid;
+    
+
+}
+
+.board div{
+    border: 1px black solid;
+}
+
+#one{
+    /* display: grid;    
+    grid-column-start: 1;
+    grid-column-end: 2; */
+    border-top: 0ch; 
+    border-left: 0ch; 
+}
+
+#two{
+
+    /* display: grid;    
+    grid-column-start: 2;
+    grid-column-end: 3; */
+    border-top: 0ch; 
+     
+}
+
+#three{
+    /* display: grid;    
+    grid-column-start: 3;
+    grid-column-end: 4; */
+    border-top: 0ch; 
+    border-right: 0ch;     
+}
+
+#four{
+    /* display: grid;    
+    grid-row-start: 2;
+    grid-row-end: 3; */
+    border-left: 0ch; 
+    
+}
+
+
+#five{
+    
+
+}
+
+#six{
+border-right: 0;
+}
+
+#seven{
+    border-bottom: 0;
+    border-left: 0;
+}
+
+#eight{
+    border-bottom: 0;
+
+}
+
+#nine{
+    border-bottom: 0;
+    border-right: 0;
+}
+
+
+
